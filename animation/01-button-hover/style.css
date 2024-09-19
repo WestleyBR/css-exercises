@@ -19,9 +19,8 @@ button:hover {
 button{
   border-radius: 8px;
   padding: 16px 24px;
-  transition:0.3s;
+  transition:.3s;
 }
 button:hover{
-  border-radius: 12px;
-  padding: 24px 36px;
+  transform: scale(1.2);
 }
