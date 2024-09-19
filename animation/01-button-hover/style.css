@@ -8,12 +8,20 @@
   font-family: Arial, sans-serif;
 }
 
-button {
-  border-radius: 8px;
+button,
+button:hover {
   border: none;
-  background-color: #2563eb;
   color: white;
   font-size: 18px;
-  padding: 16px 24px;
   text-align: center;
+  background-color: #2563eb;
+}
+button{
+  border-radius: 8px;
+  padding: 16px 24px;
+  transition:0.3s;
+}
+button:hover{
+  border-radius: 12px;
+  padding: 24px 36px;
 }
